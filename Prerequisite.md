@@ -41,3 +41,18 @@
 - ~sudo update grub~  to uodate the grub
 - ~reboot~
     
+    
+## Making kernel module
+### intro
+A linux system is majorly divided into 3 parts:
+1. User space 
+2. Kernel space
+3. Hardware
+
+user space can interact to hardware via kernel. And kerenl does it with device drivers.
+*linux kerenl is monolithic* but modules can be written and attached with kernel in-order to enhance functionality. These type of modules are called lodable kernel modules(LKM)
+Examples of kernel modules:
+1. Device Drivers
+2. File system drivers
+3. Security product, and our special
+4. Rootkits
